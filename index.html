@@ -35,7 +35,7 @@
   </div>
   <ul class="login">
     <li>
-      <a href=""><img src="img/icon-login.svg" width="20" height="17" alt="Войти"> Войти</a>
+      <a href=""><img src="img/icon-login.svg" width="20" height="17" alt="Войти">Войти</a>
     </li>
     <li><a href="">Регистрация</a></li>
   </ul>
@@ -76,7 +76,7 @@
   <a href="">Подробнее о компании</a>
   <h2>Контакты</h2>
   <p>Вы можете забрать товар сами,заехав в наш офис:</p>
-  <a>
+  <a href="">
     <img src="img/map-small.png" width="300" height="158" alt="карта проезда к магазину">
   </a>
   <a href="">Заблудились? Напишите нам!</a>
@@ -125,17 +125,17 @@
   <ul class="social">
     <li>
       <a href="">
-        <img src="img/icon-vk.svg" width="26" height="15" alt="Вконтакте">
+        <img src="img/icon-vk.svg" width="26" height="15" alt="Техномарт в Вконтакте">
       </a>
     </li>
     <li>
       <a href="">
-        <img src="img/icon-fb.svg" width="12" height="22" alt="Фейсбук">
+        <img src="img/icon-fb.svg" width="12" height="22" alt="Техномарт в Фейсбук">
       </a>
     </li>
     <li>
       <a href="">
-        <img src="img/icon-insta.svg" width="21" height="21" alt="Инстаграм">
+        <img src="img/icon-insta.svg" width="21" height="21" alt="Техномарт в Инстаграм">
       </a>
     </li>
   </ul>
@@ -148,5 +148,30 @@
     <a href="https://htmlacademy.ru">htmlacademy.ru</a>
   </p>
 </footer>
+
+<section class="form">
+  <h2 class="visually-hidden">Оставить сообщение</h2>
+  <form class="message-form" action="https://echo.htmlacademy.ru" method="post">
+    <p>
+      <label for="name">Ваше имя:
+        <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+      </label>
+    </p>
+    <p>
+      <label for="email">Ваш e-mail:
+        <input type="text" name="email" id="email" placeholder="email@example.com">
+      </label>
+    </p>
+    <p>
+      <label for="message">Текст письма:</label>
+      <textarea name="message" id="message" placeholder="В свободной форме" cols="60" rows="10">
+      </textarea>
+    </p>
+    <button class="button" type="submit">Отправить</button>
+  </form>
+  <button class="message-close" type="button">
+    <img src="img/form-close.svg" width="21" height="21" alt="Закрыть форму">
+  </button>
+</section>
 </body>
 </html>
