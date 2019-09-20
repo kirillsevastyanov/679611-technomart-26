@@ -13,13 +13,20 @@
       </a>
     </li>
     <li>
-      <img src="img/icon-search.svg" width="17" height="17" alt="Поиск">Поиск:
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <button class="start-search" type="button">
+          <img src="img/icon-search.svg" width="17" height="17" alt="Поиск">
+        </button>
+        <label for="search-field">Поиск:
+        </label>
+        <input type="text" name="search-field" id="search-field">
+      </form>
     </li>
     <li>
-      <a href=""><img src="img/icon-bookmark.svg" width="14" height="16" alt="Закладки">Закладки: 0</a>
+      <a href="" title="Закладки"><img src="img/icon-bookmark.svg" width="14" height="16" alt="Закладки">Закладки: 0</a>
     </li>
     <li>
-      <a href=""><img src="img/icon-cart.svg" width="15" height="15" alt="Корзина">Корзина: 10</a>
+      <a href="" title="Корзина"><img src="img/icon-cart.svg" width="15" height="15" alt="Корзина">Корзина: 10</a>
     </li>
     <li>
       <a href="">Оформить заказ</a>
@@ -27,7 +34,7 @@
   </ul>
   <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
   <div class="call-block">
-    <a href="tel:+78125550555">
+    <a href="tel:+78125550555" title="Позвонить">
       <img src="img/icon-phone.svg" width="19" height="19" alt="Звонок">
       +7(812)555-05-55
     </a>
@@ -35,11 +42,11 @@
   </div>
   <div>
     <div>
-      <a href="">
+      <a href="" title="Профиль">
         <img src="img/icon-user.svg" width="20" height="18" alt="Профиль">
         <span>Равшан Джамшутович</span>
       </a>
-      <a href="">
+      <a href="" title="Выход">
         <img src="img/icon-logout.svg" width="20" height="17" alt="Выход">
       </a>
     </div>
@@ -72,7 +79,7 @@
   </nav>
   <ul class="breadcrumbs">
     <li>
-      <a href="">
+      <a href="" title="Главная">
         <img src="img/icon-home.svg" width="14" height="12" alt="Главная">
       </a>
     </li>
@@ -89,41 +96,47 @@
 </header>
 <main>
   <h1>Перфораторы</h1>
-  <h3>Производители:</h3>
-  <ul>
-    <li>
-      <input type="checkbox" id="Bosch" value="Bosch" checked>
-      <label for="Bosch">Bosch</label>
-    </li>
-    <li>
-      <input type="checkbox" id="Интерскол" value="Интерскол">
-      <label for="Интерскол">Интерскол</label>
-    </li>
-    <li>
-      <input type="checkbox" id="Makita" value="Makita" checked>
-      <label for="Makita">Makita</label>
-    </li>
-    <li>
-      <input type="checkbox" id="Dewalt" value="Dewalt">
-      <label for="Dewalt">Dewalt</label>
-    </li>
-    <li>
-      <input type="checkbox" id="Hitachi" value="Hitachi">
-      <label for="Hitachi">Hitachi</label>
-    </li>
-  </ul>
-  <h3>Питание:</h3>
-  <ul>
-    <li>
-      <input type="radio" id="acc" name="power" value="АККУМУЛЯТОРНЫЕ">
-      <label for="acc">Аккумуляторные</label>
-    </li>
-    <li>
-      <input type="radio" id="net" name="power" value="СЕТЕВЫЕ">
-      <label for="net">Сетевые</label>
-    </li>
-  </ul>
-  <button type="button">Показать</button>
+  <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+    <fieldset>
+      <legend>Производители:</legend>
+      <ul>
+        <li>
+          <input type="checkbox" id="Bosch" value="Bosch" checked>
+          <label for="Bosch">Bosch</label>
+        </li>
+        <li>
+          <input type="checkbox" id="Интерскол" value="Интерскол">
+          <label for="Интерскол">Интерскол</label>
+        </li>
+        <li>
+          <input type="checkbox" id="Makita" value="Makita" checked>
+          <label for="Makita">Makita</label>
+        </li>
+        <li>
+          <input type="checkbox" id="Dewalt" value="Dewalt">
+          <label for="Dewalt">Dewalt</label>
+        </li>
+        <li>
+          <input type="checkbox" id="Hitachi" value="Hitachi">
+          <label for="Hitachi">Hitachi</label>
+        </li>
+      </ul>
+    </fieldset>
+    <fieldset>
+      <legend>Питание:</legend>
+      <ul>
+        <li>
+          <input type="radio" id="acc" name="power" value="АККУМУЛЯТОРНЫЕ">
+          <label for="acc">Аккумуляторные</label>
+        </li>
+        <li>
+          <input type="radio" id="net" name="power" value="СЕТЕВЫЕ">
+          <label for="net">Сетевые</label>
+        </li>
+      </ul>
+    </fieldset>
+    <button type="submit">Показать</button>
+  </form>
   <ul>
     <li>
       <img src="img/bfg3000.jpg" width="218" height="170" alt="Перфоратор Bosch BFG 3000">
@@ -260,17 +273,17 @@
     Все права защищены</p>
   <ul class="social">
     <li>
-      <a href="">
+      <a href="" title="Техномарт в Вконтакте">
         <img src="img/icon-vk.svg" width="26" height="15" alt="Техномарт в Вконтакте">
       </a>
     </li>
     <li>
-      <a href="">
+      <a href="" title="Техномарт в Фейсбук">
         <img src="img/icon-fb.svg" width="12" height="22" alt="Техномарт в Фейсбук">
       </a>
     </li>
     <li>
-      <a href="">
+      <a href="" title="Техномарт в Инстаграм">
         <img src="img/icon-insta.svg" width="21" height="21" alt="Техномарт в Инстаграм">
       </a>
     </li>
@@ -286,7 +299,9 @@
 </footer>
 <section class="cart">
   <h2 class="visually-hidden">Корзина</h2>
-  <img src="img/modal-check.svg" width="66" height="66" alt="Товар добавлен в корзину">
+  <a href="" title="Товар добавлен в корзину">
+    <img src="img/modal-check.svg" width="66" height="66" alt="Товар добавлен в корзину">
+  </a>
   <p>Товар добавлен в корзину!</p>
   <a href="">Оформить заказ</a>
   <button class="cart-close" type="button">Продолжить покупки</button>
