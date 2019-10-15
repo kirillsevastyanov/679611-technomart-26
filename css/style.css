@@ -1,0 +1,225 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+header {
+  background-color: #f4f7f9;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+h3 {
+  color: black;
+}
+
+main p {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+fieldset {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: black;
+  text-transform: uppercase;
+}
+
+.catalog p{
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.mail-us a{
+  text-decoration: none;
+  color: #ffd180;
+}
+
+.developed a{
+  text-decoration: none;
+  color: #ffd180;
+}
+
+.delivery {
+  font-size: 18px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: left;
+  font-style: italic;
+  color: #ee3643;
+}
+
+.top-bar,
+.main-menu,
+.login,
+.delivery,
+.footer-menu,
+.footer-menu-bottom,
+.social {
+  list-style: none;
+}
+
+.top-bar a,
+.main-menu a,
+.login a,
+.footer-menu a,
+.footer-menu-bottom a{
+  color: #ffffff;
+}
+
+.top-bar a:hover,
+.top-bar a:focus {
+  background-color: #212a3a;
+}
+
+.top-bar a:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.order {
+  background-color: #63a63e;
+}
+
+.order a:hover,
+.order a:focus {
+  background-color: #5fbb2d;
+}
+
+.order a:active {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.top-bar,
+footer {
+  background-color: #293449;
+}
+
+.top-bar {
+  font-size: 17px;
+  line-height: 1.06;
+}
+
+.login a {
+  font-size: 21px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.login a:hover,
+.login a:focus {
+  color: #ee3643;
+}
+
+.login a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.call-block {
+  color: #32425c;
+}
+
+.call-block a {
+  color: #e9292a;
+}
+
+.main-menu {
+  font-size: 17px;
+  line-height: 1;
+  background-color: #32425c;
+}
+
+.main-menu a:hover,
+.main-menu a:focus {
+  background-color: #1d2739;
+}
+
+.main-menu a:active{
+  background-color: #1d2739;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.old-price {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
+  color:#999999;
+}
+
+.price {
+  font-family: 'PT Sans', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.wrap {
+  width: 940px;
+  height: 89px;
+  background-color: #f2f6f8;
+}
+
+.footer-menu-block {
+  background-color: #32425c;
+}
+
+.footer-menu a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-menu a:hover,
+.footer-menu a:focus {
+  text-decoration: underline;
+  color: #ffffff;
+}
+
+.footer-menu a:active {
+  color: rgba(241, 245, 247, 0.5);
+}
+
+.footer-menu-bottom a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffd180;
+}
+
+.footer-menu-bottom a:hover,
+.footer-menu-bottom a:focus {
+  text-decoration: underline;
+}
+
+.footer-menu-bottom a:active {
+  color: rgba(255, 209, 128, 0.5);
+}
+
